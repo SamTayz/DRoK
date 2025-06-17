@@ -1,23 +1,20 @@
 body
 {
-  background-color: #bfd;
+  background-color: #222;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
 h1
 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-  position: fixed;
-  top: 0;
-  left:50%;
-  transform: translate(-50%, -50%);
-  color: #26f;
-  text-decoration: underline color(srgb 0 0 0);
-  font-size: 100px;
+  font-family:'Times New Roman', Times, serif ;
+  color: #daa520;
+  text-decoration: underline #daa520;
+  font-size: 75px;
 }
 
-.orange
+.headingflex
 {
-  color: #f70;
+  display: flex;
+  justify-content: center;
 }
