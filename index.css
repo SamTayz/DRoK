@@ -5,8 +5,7 @@ body
   overflow-x: hidden;
 }
 
-h1
-{
+h1 {
   font-family:'Times New Roman', Times, serif ;
   color: #daa520;
   text-decoration: underline #daa520;
