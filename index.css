@@ -3,17 +3,21 @@ body
   background-color: #222;
   overflow-y: scroll;
   overflow-x: hidden;
+  font-family:'Times New Roman', Times, serif;
+  color: #daa520;
+    text-align: center;
 }
 
 h1 {
-  font-family:'Times New Roman', Times, serif ;
-  color: #daa520;
   text-decoration: underline #daa520;
-  font-size: 75px;
+  font-size: 100px;
 }
 
-.headingflex
-{
-  display: flex;
+p {
+  font-size: 35px;
+}
+
+.headingflex {
+    display: flex;
   justify-content: center;
 }
