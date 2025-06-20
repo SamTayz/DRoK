@@ -5,15 +5,16 @@ function nav()
     {   
         document.getElementById("Text").style.left = "";
         document.getElementById("nav").style.display = "none";
-        console.log("if");
+        document.getElementById("lines").classList.add("rotate2");
+        document.getElementById("lines").classList.remove("rotate");
         open = false;
     }
     else 
     {
-        document.getElementById("Text").style.left = "20%";
+        document.getElementById("Text").style.left = "30%";
         document.getElementById("nav").style.display = "block";
-        console.log("else");
+        document.getElementById("lines").classList.add("rotate");
+        document.getElementById("lines").classList.remove("rotate2");
         open = true;
     }
-    console.log(document.getElementById("Text")).left;
-}
+} 
