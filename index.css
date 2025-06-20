@@ -1,7 +1,7 @@
 body
 {
   background-color: #222;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
   font-family:'Times New Roman', Times, serif;
   color: #daa520;
@@ -20,4 +20,18 @@ p {
 .headingflex {
     display: flex;
   justify-content: center;
+}
+.Text {
+  position: absolute;
+  width: 80%;
+  left:10%;
+}
+.lines {
+  position: absolute;
+  width: 5%;
+  left:2%;
+  top: 5%;
+}
+.lines:hover {
+cursor: pointer;
 }
