@@ -1,7 +1,7 @@
 body
 {
   background-color: #222;
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
   font-family:'Times New Roman', Times, serif;
   color: #daa520;
@@ -25,8 +25,8 @@ p {
   position: absolute;
   width: 60%;
   left:20%;
+  height: 150%;
   background-color: rgba(54, 54, 54, 0.5);
-  height: 90%;
   top: 5%;
   border-radius: 50px;
   overflow: auto;
@@ -35,6 +35,7 @@ p {
   width: 90%;
   position: absolute;
   left: 5%;
+  overflow: auto;
 }
 .lines {
   position: absolute;
@@ -72,6 +73,7 @@ cursor: pointer;
   justify-content: center;
   z-index: -1;
   display: none;
+  border-right: 1px solid #daa520;
 }
 #nav a {
   color: #daa520;
@@ -91,10 +93,10 @@ cursor: pointer;
     
 }
 .navD:hover {
-  background-color: rgba(0, 54, 54, 0.7);
+  background-color: rgba(54, 54, 0, 0.5);
 }
 .active {
-  background-color: rgba(54, 54, 0, 0.5);
+  background-color: rgba(0, 54, 54, 0.7);
 }
 .D1 {top: 20%;}
 .D2 {top: 36%;}
