@@ -13,29 +13,49 @@ h1 {
   font-size: 100px;
 }
 
+h2 {
+  text-decoration: underline #daa520;
+  font-size: 60px;
+}
+
+.macbeth {
+max-width: 100px;
+}
+
 p {
   font-size: 35px;
 }
 
 .headingflex {
-    display: flex;
+  display: flex;
   justify-content: center;
+  height: fit-content;
+  background-color: rgba(54, 54, 54, 0.5);
+  border-radius: 50px;
 }
 .Text {
   position: absolute;
   width: 60%;
   left:20%;
-  height: 150%;
-  background-color: rgba(54, 54, 54, 0.5);
   top: 5%;
   border-radius: 50px;
-  overflow: auto;
+  overflow: show;
+  height: fit-content;
+}
+.text {
+  height: 95vh;
 }
 .subheadingflex {
-  width: 90%;
+  left: -5%;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
   position: absolute;
-  left: 5%;
   overflow: auto;
+  height:fit-content;
+  border-radius: 50px;
+  background-color: rgba(54, 54, 54, 0.5);
+  top: 125%;
 }
 .lines {
   position: absolute;
@@ -81,7 +101,7 @@ cursor: pointer;
   font-size: 30px;
   margin: 10px 0;
 }
-.navD { 
+.navD {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
@@ -90,13 +110,13 @@ cursor: pointer;
   width: 100%;
   justify-content: center;
   line-height: 5;
-    
+
 }
 .navD:hover {
   background-color: rgba(54, 54, 0, 0.5);
 }
 .active {
-  background-color: rgba(0, 54, 54, 0.7);
+  background-color: rgba(0, 54, 54, 0.7) !important;
 }
 .D1 {top: 20%;}
 .D2 {top: 36%;}
