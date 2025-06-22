@@ -114,6 +114,7 @@ p {
   width: 100%;
   justify-content: center;
   line-height: 5;
+  transition: background-color 0.5s ease-in-out;
 
 }
 .navD:hover {
